@@ -44,8 +44,8 @@ RUN  mkdir -p  /home/celuman/properties \
 
 VOLUME ["/home/celuman/", "/logs"]
 
-COPY docker-entrypoint.sh /
-RUN  chmod +x /docker-entrypoint.sh
-ENTRYPOINT ["/docker-entrypoint.sh"]
+#COPY docker-entrypoint.sh /
+#RUN  chmod +x /docker-entrypoint.sh
+#ENTRYPOINT ["/docker-entrypoint.sh"]
 
-CMD ["python","/home/celuman/RestMO.py"]
+#CMD ["python","/home/celuman/RestMO.py"]
