@@ -6,7 +6,7 @@ MAINTAINER Jookies LTD <jasmin@jookies.net>
 RUN groupadd -r jasmin && useradd -r -g jasmin jasmin \
     && groupadd -r celuman && useradd -r -g celuman celuman
 
-ENV JASMIN_VERSION 0.9b1
+ENV JASMIN_VERSION 0.9.26
 
 # Install requirements
 RUN apt-get update && apt-get install -y \
