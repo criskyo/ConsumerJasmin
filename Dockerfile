@@ -17,6 +17,7 @@ RUN apt-get update && apt-get install -y \
     libssl-dev \
     rabbitmq-server \
     redis-server \
+    python-mysqldb \
     nano \
     joe \
     vim \
